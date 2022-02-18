@@ -70,9 +70,9 @@ section > h5 {
   color: var(--color-light);
 }
 
-.section > h2 {
+section > h2 {
   color: var(--color-primary);
-  margin: 3rem;
+  margin: 0 3rem 3rem 3rem;
 }
 
 .text-light {
@@ -112,8 +112,9 @@ a:hover {
 
 img {
   display: block;
+  height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 /* ================= MEDIA QUERIES (MEDIUM DEVICES) =============== */
@@ -122,7 +123,7 @@ img {
     width: var(--container-width-md);
   }
 
-  .section {
+  section {
     margin-top: 6rem;
   }
 }
@@ -133,7 +134,7 @@ img {
     width: var(--container-width-sm);
   }
 
-  .section > h2 {
+  section > h2 {
     margin-bottom: 2rem;
   }
 }
