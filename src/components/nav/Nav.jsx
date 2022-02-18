@@ -5,6 +5,7 @@ import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { BiMessageDetail } from "react-icons/bi";
+import { MdWorkOutline } from "react-icons/md";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
@@ -31,6 +32,13 @@ const Nav = () => {
         className={activeNav === "#experience" ? "active" : ""}
       >
         <BiBook />
+      </a>
+      <a
+        href="#services"
+        onClick={() => setActiveNav("#services")}
+        className={activeNav === "#services" ? "active" : ""}
+      >
+        <MdWorkOutline />
       </a>
       <a
         href="#portfolio"
