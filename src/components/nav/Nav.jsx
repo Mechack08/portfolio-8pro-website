@@ -6,6 +6,7 @@ import { BiBook } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { BiMessageDetail } from "react-icons/bi";
 import { MdWorkOutline } from "react-icons/md";
+import { FaRegCommentDots } from "react-icons/fa";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
@@ -46,6 +47,13 @@ const Nav = () => {
         className={activeNav === "#portfolio" ? "active" : ""}
       >
         <RiServiceLine />
+      </a>
+      <a
+        href="#testimonials"
+        onClick={() => setActiveNav("#testimonials")}
+        className={activeNav === "#testimonials" ? "active" : ""}
+      >
+        <FaRegCommentDots />
       </a>
       <a
         href="#contact"
