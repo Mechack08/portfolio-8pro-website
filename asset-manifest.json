@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio-8pro-website/static/css/main.0977d863.css",
+    "main.js": "/portfolio-8pro-website/static/js/main.bd96dfbd.js",
+    "static/media/8pro-2-removebg-2.png": "/portfolio-8pro-website/static/media/8pro-2-removebg-2.8981c0277de98eb4042c.png",
+    "static/media/8proCV-pdf.pdf": "/portfolio-8pro-website/static/media/8proCV-pdf.b0445f4a2875c0a80bbd.pdf",
+    "static/media/bg.png": "/portfolio-8pro-website/static/media/bg.0b0b3964f3f15217ae2f.png",
+    "static/media/about-8pro.JPG": "/portfolio-8pro-website/static/media/about-8pro.be1cab1315ac4422a32c.JPG",
+    "index.html": "/portfolio-8pro-website/index.html",
+    "main.0977d863.css.map": "/portfolio-8pro-website/static/css/main.0977d863.css.map",
+    "main.bd96dfbd.js.map": "/portfolio-8pro-website/static/js/main.bd96dfbd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0977d863.css",
+    "static/js/main.bd96dfbd.js"
+  ]
+}
